@@ -1,0 +1,42 @@
+{
+	"type": "object",
+	"properties": {
+		"client_id": {
+			"type": "string"
+		},
+		"client_secret": {
+			"type": "string"
+		},
+		"gmusic_login": {
+			"type": "string"
+		},
+		"playlists": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"type": "string"
+					},
+					"username": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"id",
+					"username"
+				]
+			}
+		},
+		"redirect_url": {
+			"type": "string"
+		}
+	},
+	"required": [
+		"client_id",
+		"client_secret",
+		"gmusic_login",
+		"playlists",
+		"redirect_url"
+	]
+}

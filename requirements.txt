@@ -1,0 +1,4 @@
+gmusicapi
+jsonschema
+spotipy
+fuzzywuzzy
